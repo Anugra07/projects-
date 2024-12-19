@@ -80,7 +80,6 @@ body {
     width: 95%;
     margin: 0 auto;
     object-fit: cover;  
-    /* object fit is used to keep the photo fixed when the screen size changes */
 }
 .a{
     font-family: 'Archivo',sans-serif;
@@ -339,38 +338,5 @@ footer p {
         
         line-height: 1.94vw; 
         padding: 1vw 2vw 3vw;
-    }
-}
-
-@media (max-width: 768px) {
-    .main-area { 
-        width: 100%;
-        padding: 8.67vw 1.67vw; 
-    }
-    .main-area h3{
-        font-size: 3vw;
-        line-height: 3vw;
-        padding-left: 2vw;
-        width: 100%;
-    }
-    .logo {
-        margin: 0;
-    }
-    .pura_container {
-        flex-direction: column;
-    }
-    .aloo1 {
-        flex-direction: column;
-        margin: 0;
-        padding: 0;
-    }
-    #contact {
-        display: block;
-    }
-    .logo {
-        order: -1;
-    }
-    .aloo {
-        display: none;
     }
 }
